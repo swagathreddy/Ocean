@@ -127,9 +127,7 @@ export const GameBoard: React.FC = () => {
       <StatBox label="Completed" value={`${gameState.correctPlacements}/${totalSpecies}`} color="orange" />
 
     </div>
-    <p className="text-sm text-blue-700 text-center mb-2 md:hidden">
-          🔍 Scroll left and right to explore the full tree on smaller screens.
-    </p>
+    
     <div className="flex items-center space-x-4 self-center md:self-auto">
       <div className="w-28 bg-gray-200 rounded-full h-2">
         <div
@@ -162,6 +160,9 @@ export const GameBoard: React.FC = () => {
         )}
 
         {/* Tree Area */}
+        <p className="text-sm text-blue-700 text-center mb-2 md:hidden">
+          🔍 Scroll left and right to explore the full tree on smaller screens.
+        </p>
         <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
   <div className="w-full overflow-x-auto">
     <div

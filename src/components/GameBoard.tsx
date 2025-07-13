@@ -117,6 +117,9 @@ export const GameBoard: React.FC = () => {
         </div>
 
         {/* Game Stats */}
+        <p className="text-sm text-blue-700 text-center mb-2 md:hidden">
+          🔍 Scroll left and right to explore the full tree on smaller screens.
+        </p>
         <div className="bg-white rounded-lg shadow-lg p-4 mb-6">
   <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
     <div className="flex flex-wrap justify-center gap-6">
